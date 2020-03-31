@@ -1,0 +1,275 @@
+@import url("fonts.css");
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: #ffffff;
+}
+
+main nav.navbar a.navbar-brand img {
+  margin-left: 30px;
+  height: 60px;
+  width: 60px;
+}
+
+main nav.navbar #navbarNav .navbar-nav {
+  margin-right: 30px;
+}
+
+main nav.navbar #navbarNav .navbar-nav .nav-item {
+  margin-right: 50px;
+}
+
+main nav.navbar #navbarNav .navbar-nav .btn {
+  color: #000000;
+}
+
+section.display {
+  padding: 40px;
+  border: none;
+  border-radius: 20px;
+  margin: 40px;
+  height: 550px;
+  background: #baddfd;
+}
+
+section.display .display-text {
+  margin-top: 50px;
+  margin-right: auto;
+}
+
+section.display .display-text h1 {
+  font-size: 50px;
+  font-weight: 900;
+  margin-bottom: 40px;
+}
+
+section.display .display-text p {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 60px;
+}
+
+section.display .display-text a {
+  font-size: 25px;
+  text-transform: capitalize;
+  text-decoration: none;
+  height: 40px;
+  width: 150px;
+  color: #ffffff;
+  background-color: #0d8aff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+}
+
+section.display .display-img img {
+  height: 550px;
+  width: 550px;
+  margin-right: auto;
+}
+
+section.categories {
+  position: relative;
+  height: 450px;
+}
+
+section.categories img {
+  margin-top: 5px;
+  height: 120px;
+  border: 3px solid #ffffff;
+  border-radius: 15px;
+}
+
+section.categories .main-categories {
+  transform: rotate(-90deg);
+  position: absolute;
+  right: -110%;
+  border: 2px solid #3498db;
+  padding: 20px;
+  margin: 20px;
+  padding-right: 80px;
+  padding-left: 80px;
+  top: 32%;
+  border-radius: 15px;
+}
+
+section.categories .virtual {
+  background-color: #e16fa0;
+  margin: 10px;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+section.categories .finance {
+  background-color: #7fd7c1;
+  margin: 10px;
+  border-radius: 15px;
+  padding: 20px;
+}
+section.categories .marketing {
+  background-color: #f5e248;
+  margin: 10px;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+section.categories .science {
+  background-color: #acc6ff;
+  margin: 10px;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+section.categories .view-course {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  text-align: right;
+}
+
+section.categories .view-course a {
+  text-decoration: none;
+}
+
+section.about {
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+
+section.about h1 {
+  font-size: 40px;
+  font-weight: 800;
+  color: #0d8aff;
+  margin-bottom: 80px;
+}
+section.about .about-details .text-details h3 {
+  margin-left: 40px;
+  font-size: 27px;
+  font-weight: 600;
+  color: #000000;
+}
+
+section.about .about-details .text-details h3 i {
+  font-size: 40px;
+  color: #0d8aff;
+}
+
+section.about .about-details .text-details p {
+  margin-left: 160px;
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #000000;
+}
+
+section.learn {
+  background-color: #baddfd;
+  margin-left: 80px;
+  height: 650px;
+  border-radius: 0px 0px 0px 50px;
+  margin-bottom: 100px;
+  padding: 60px;
+}
+
+section.learn h2 {
+  margin-top: 50px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  margin-left: 18px;
+}
+
+section.learn p {
+  font-weight: 500;
+  font-size: 23px;
+  margin-bottom: 70px;
+  margin-left: 18px;
+}
+
+section.learn h4 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-left: 18px;
+}
+
+section.learn img {
+  height: 120px;
+}
+
+section.learn .learn-myfirst img {
+  position: relative;
+  bottom: 5rem;
+  top: 150;
+  height: 600px;
+}
+
+section.learn .learn-myfirst img {
+  position: relative;
+  bottom: 5rem;
+  top: 150;
+  height: 600px;
+}
+
+section.contact {
+  background-color: #052c4d;
+  height: 600px;
+  color: #ffffff;
+}
+
+section.contact .contact-form {
+  margin-top: 50px;
+  padding-left: 70px;
+}
+
+section.contact img {
+  margin-top: 20px;
+  height: 120px;
+}
+
+section.contact .contact-form h5 {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+section.contact .contact-form input {
+  font-size: 20px;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 8px 0px 0px 8px;
+}
+section.contact .contact-form button {
+  font-size: 20px;
+  padding: 20px 40px;
+  border: none;
+  border-radius: 0px 8px 8px 0px;
+  background-color: #61affa;
+  color: #ffffff;
+}
+
+section.contact .contact-details {
+  margin-top: 9rem;
+}
+
+section.contact .contact-details p {
+  color: #d5d5d5;
+}
+
+section.footer {
+  padding: 20px 40px;
+  border-top: 1px solid #b6b6b6;
+  background-color: #052c4d;
+  color: #ffffff;
+}
+
+section.footer p {
+  padding-left: 8rem;
+  font-size: 20px;
+}
+
+section.footer .social {
+  padding-left: 500px;
+}
+section.footer .fab {
+  padding-left: 25px;
+  color: #ffffff;
+}
